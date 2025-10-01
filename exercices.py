@@ -112,26 +112,26 @@
 
 # Exercice 9 : 
 
-K = 12000
-t = 0.006
+# K = 12000
+# t = 0.006
 
-somme = 0
+# somme = 0
 
-N = int(input("Donnez la valeur de N : "))
+# N = int(input("Donnez la valeur de N : "))
 
-somme_fermee = 12000 * (((1+t)**(N-1))/t)
+# somme_fermee = 12000 * ((((1+t)**N)-1)/t)
 
-def verif_sommes(somme1, somme2):
-    if somme1 == somme2:
-        print("Les deux sommes sont identiques") 
-    else:
-        print("Les deux sommes sont différentes") 
+# def verif_sommes(somme1, somme2):
+#     if somme1 == somme2:
+#         print("Les deux sommes sont identiques") 
+#     else:
+#         print("Les deux sommes sont différentes") 
 
-for i in range(N):
-    K = (1+t)*K
-    somme += K
-    print(f"K({i+1}) est égal à {K:.3f}")
-print(f"La somme des N premiers termes est égale à {somme:.3f}")
+# for i in range(N):
+#     K = (1+t)*K
+#     somme += K
+#     print(f"K({i+1}) est égal à {K:.3f}")
+# print(f"La somme des N premiers termes est égale à {somme:.3f}")
 
-print(somme,somme_fermee)
-verif_sommes(somme,somme_fermee)
+# print(somme,somme_fermee)
+# verif_sommes(somme,somme_fermee)
