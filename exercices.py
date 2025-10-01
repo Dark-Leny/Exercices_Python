@@ -97,6 +97,6 @@
 # Exercice 8 : 
 
 # import math
-# N = int(input("Combien de termes consécutives voulez vous afficher ? : "))
+# N = int(input("Quelle quantité de terme voulez-vous affichez ? :"))
 # for n in range(N):
-#     print(f"{v:.6f}")
+#     print(f"Terme N°{n} : {math.sqrt(n):.2f}") 
