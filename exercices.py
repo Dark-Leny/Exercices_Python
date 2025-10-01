@@ -77,3 +77,26 @@
 # S+= math.pow(2,n)
 # print(terme)
 # print("la somme des N premier termes est : ", S)
+
+
+# Exercice 7 :
+
+# import math
+# N = int(input("Combien de termes consécutives voulez vous afficher ? : "))
+# v=0
+# somme = 0
+# print("les N premiers termes sont :")
+# for n in range(N):
+#     v = math.sqrt(v+1) # équivalent à v(n+1) devient égale à racine carré de v(n)+1
+#     somme += v  
+#     print(f"{v:.6f}")
+# print("la somme des N premier termes est : ", f"{somme:.3f}")
+# print(f"encadrement du dernier termes, au plus bas math.floor(v) {math.floor(v)} et au plus haut math.ceil(v) {math.ceil(v)}")
+
+
+# Exercice 8 : 
+
+# import math
+# N = int(input("Combien de termes consécutives voulez vous afficher ? : "))
+# for n in range(N):
+#     print(f"{v:.6f}")
