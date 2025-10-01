@@ -97,6 +97,15 @@
 # Exercice 8 : 
 
 # import math
+
 # N = int(input("Quelle quantité de terme voulez-vous affichez ? :"))
+# somme = 0
+# somme_fermee = 0
+
 # for n in range(N):
-#     print(f"Terme N°{n} : {math.sqrt(n):.2f}") 
+# print(f"Terme N°{n} : {math.sqrt(n):.2f}")
+# somme += math.sqrt(n)
+
+# print(f"Somme = {somme:.2f}")
+# somme_fermee = (2/3)*math.pow(N,(3/2))
+# print(f"Somme fermee : {somme_fermee:.2f}") 
