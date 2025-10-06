@@ -1,6 +1,29 @@
 # Exercice 1 : 
 
+# L1 = [3,-2,7,0,-5,7,2]
 
+# longueur = len(L1)
+# minimum = min(L1)
+# maximum = max(L1)
+
+# print(f"La longueur de la liste est égale à {longueur}")
+# print(f"Le minimum de la liste est égale à {minimum}")
+# print(f"Le maximum de la liste est égale à {maximum}")
+
+# somme = 0
+
+# for i in L1 :
+#     if i >= 0:
+#         print(i)
+#         somme += i
+# print(f"La somme des entiers positifs est égale à {somme}")
+
+# print("Liste triée : ",sorted(L1))
+# print(f"Liste originale : {L1}")
+
+# L1.sort(reverse = True)
+
+# print(f"Liste décroissante : {L1}")
 
 
 # Exercice 2 : 
@@ -20,3 +43,18 @@
 # print(L)
 # L.pop(2)
 # print(L)
+
+# Exercice 3 : 
+
+# def interleave(A, B):
+#     result = []
+#     for a, b in zip(A,B) :
+#         result.append(a)
+#         result.append(b)
+#     return result
+
+# A = [1, 3, 5]
+# B = [2, 4, 6]
+
+# liste_fusionnee = interleave(A,B) 
+# print(liste_fusionnee)
