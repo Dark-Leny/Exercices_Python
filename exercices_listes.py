@@ -76,3 +76,13 @@
 
 # Exercice 5 : 
 
+# produits = ["RAM","SSD","CPU","GPU"]
+# produits.insert(1,"HDD")
+# print(produits)
+# produits.insert(0,"PSU")
+# print(produits)
+# produits.extend(["Boitier","Ventirad"])
+# print(produits)
+
+# Exercice 6 : 
+
