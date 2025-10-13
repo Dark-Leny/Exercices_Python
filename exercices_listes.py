@@ -108,3 +108,10 @@
 
 # Exercice 8 : 
 
+# items = ["a", "b", "a", "c", "a", "b"]
+# liste=[]
+
+# print(f"items :")
+# for i in range(0, len(items), 2): 
+#     liste.append(i)
+# print(liste)
