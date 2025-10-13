@@ -98,3 +98,13 @@
 
 # Exercice 7 : 
 
+# panier = ["banane", ["pomme", "poire", "kiwi"], True, [10, 20, 30]]
+
+# deuxieme_fruit = panier[1][1]
+# print(f"Le deuxième fruit est : {deuxieme_fruit}")
+
+# troisieme_entier = panier[3][2]
+# print(f"Le troisième entier est : {troisieme_entier}")
+
+# Exercice 8 : 
+
