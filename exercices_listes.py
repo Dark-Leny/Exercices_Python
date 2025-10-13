@@ -58,3 +58,21 @@
 
 # liste_fusionnee = interleave(A,B) 
 # print(liste_fusionnee)
+
+# Exercice 4 : 
+
+# notes = [12,9,14,7,18,10]
+
+# print(f"-> Liste d'origine inchangée :{notes}") 
+# print(f"-> Liste triée croissante :{sorted(notes)}")
+
+# print(f"-> Liste notes {notes}") 
+
+# print(f"-> Liste triée décroissante :{sorted(notes, reverse=True)}")
+
+# print(f"-> Liste notes {notes}") 
+
+# La différence entre sorted et sort est que sorted renvoie une nouvelle liste triée tandis que sort trie la liste d'origine en place.
+
+# Exercice 5 : 
+
