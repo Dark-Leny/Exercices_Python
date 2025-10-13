@@ -115,3 +115,35 @@
 # for i in range(0, len(items), 2): 
 #     liste.append(i)
 # print(liste)
+
+# Exercice 9 : 
+
+# import math
+# liste = [x for x in range(1, 31)]  
+
+# print(liste)
+
+# liste_cube = [math.pow(x,3) for x in range(1, 31)]  
+# print(liste_cube)
+
+# Exercice 10 : 
+
+# nums = list(range(1,21))
+
+# nums2 = ["EVEN" if i%2 == 0 else "ODD" for i in nums]
+
+# print(nums2)
+
+# Exercice 11 : 
+
+# a=[5, 2, 9]
+# b=[3, 7, 1, 8]
+
+# #1)
+# a.extend(b)
+
+# #2)
+# a.sort(reverse=True)
+
+# print(a)
+# print(sorted(a))
