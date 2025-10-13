@@ -86,3 +86,15 @@
 
 # Exercice 6 : 
 
+# files = ["log.txt", "temp.tmp", "readme.md", "temp.tmp", "main.py"]
+
+# files.pop(1)
+
+# files.remove("temp.tmp")
+
+# print(files)
+
+# pop supprime un élément à un index donné et remove supprime la première occurrence d'une valeur donnée.
+
+# Exercice 7 : 
+
