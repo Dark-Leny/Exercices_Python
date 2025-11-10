@@ -29,3 +29,14 @@
 
 
 # Exercice 3 : 
+
+mon_dict = {'stylo': 1.5, 'cahier': 3.2, 'classeur': 4.8}
+
+for key in mon_dict.keys :
+    print(key, mon_dict[key])
+
+for value in mon_dict.values :
+    print(value)
+
+for key,value in mon_dict.items :
+    print(f"key: {key} -> value: {value}")
