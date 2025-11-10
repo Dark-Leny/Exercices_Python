@@ -13,3 +13,4 @@
 
 # Exercice 2 : 
 
+article = {"libellé" : "céréales", "prix" : 2, "stock" : 20}
