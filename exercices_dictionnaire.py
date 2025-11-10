@@ -13,15 +13,19 @@
 
 # Exercice 2 : 
 
-article = {"libellé" : "céréales", "prix" : 2, "stock" : 20}
+# article = {"libellé" : "céréales", "prix" : 2, "stock" : 20}
 
-article['catégorie'] = 'blé'
+# article['catégorie'] = 'blé'
 
-article['prix'] = article['prix'] + 0.10 * article['prix']
+# article['prix'] = article['prix'] + 0.10 * article['prix']
 
-valeur = article.pop('stock', None)
+# valeur = article.pop('stock', None)
 
-valeur = article.pop('inconnu', None)
+# valeur = article.pop('inconnu', None)
 
-print(article)
-print(valeur)
+# print(article)
+# print(valeur)
+
+
+
+# Exercice 3 : 
